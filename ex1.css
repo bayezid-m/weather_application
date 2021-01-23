@@ -1,0 +1,49 @@
+body
+{
+background-color:black;
+}
+.first{
+    background-color: darkcyan;
+    color:white;
+    text-align: center;
+    width:50%;
+    height:50px;
+    line-height: 50px;
+    font-style: time new roman;
+}
+.text1{
+    line-height: 50px;  
+    margin-left: 5%;
+}
+.text2{
+    margin-top: 0px;
+    line-height: 50px;
+    margin-left: 10%;
+}
+.text3{
+    line-height: 50px;
+    margin-left: 80%;    
+}
+.second1{
+    height: 50px;
+    background-color: white;
+    color:black;       
+}
+.second2{
+    height: 50px;
+    background-color: darkslategray;
+    color:white;
+}
+.third1, .third2{
+    height: 100px;
+}
+.third1{
+    height: 50px;
+    background-color: white;
+    color:black;       
+}
+.third{
+    height: 50px;
+    background-color: darkslategray;
+    color:white;
+}
