@@ -32,7 +32,7 @@ function graduation() {
     h %= 24;
     m %= 60;
     s %= 60;
-    document.getElementById("graduation-counter").innerText = "I will graduate from TAMK " + d + " days";
+    document.getElementById("graduation-counter").innerText = "I will graduate from TAMK in " + d + " days";
 }
 ////
 
