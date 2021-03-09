@@ -1,0 +1,29 @@
+body{
+    background-color: #E0BC8D;
+}
+
+td{
+    border: 1px solid;
+    padding: 4px 100px;
+}
+tr{
+    border: 1px solid;
+    padding: 4px 100px;
+}
+.true{
+    background-color: #DD7698;
+}
+.false{
+    background-color: #25B6AE;
+}
+th{
+    color: white;
+    background-color:#0b494b;
+    width: 100%;
+}
+table{
+    width: 100%;
+    border: 1px solid;
+    color: black;
+    
+}
