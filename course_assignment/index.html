@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Course assignment</title>
+</head>
+<body>
+    <div class="div01">
+        <image id="image1" src="image1.jpg" height="70"></image>
+        <h1>Weather<br>Station</h1>
+        </div>
+    </div>
+ <div class="div02">
+    <nav>
+        <ul>
+            <li> <a href="#" id="button01">View 1</a></li>
+            <li> <a href="#">View 2</a>
+                <ul>
+                    <li> <a href="#" id="button02">Now</a></li>
+                    <li> <a href="#" id="button03">24 hours</a></li>
+                    <li> <a href="#" id="button04">48 hours</a></li>
+                    <li> <a href="#" id="button05">72 hours</a></li>
+                    <li> <a href="#" id="button06">1 week</a></li>
+                    <li> <a href="#" id="button07">1 month</a></li>
+                </ul>
+            </li>
+            <li><a href="#">View 3</a>
+                <ul>
+                    <li> <a href="#" id="button08">Now</a></li>
+                    <li> <a href="#" id="button09">24 hours</a></li>
+                    <li> <a href="#" id="button10">48 hours</a></li>
+                    <li> <a href="#" id="button11">72 hours</a></li>
+                    <li> <a href="#" id="button12">1 week</a></li>
+                    <li> <a href="#" id="button13">1 month</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">View 4</a>
+                <ul>
+                    <li> <a href="#">Now</a>
+                        <ul>
+                            <li> <a href="#" id="button4_1_1">Rain</a></li>
+                            <li> <a href="#" id="button4_1_2">Wind speed</a></li>
+                            <li> <a href="#" id="button4_1_3">Wind dir</a></li>
+                            <li> <a href="#" id="button4_1_4">Light</a></li>
+                            <li> <a href="#" id="button4_1_5">Temperature</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">24 hours</a>
+                        <ul>
+                            <li> <a href="#" id="button4_2_1">Rain</a></li>
+                            <li> <a href="#" id="button4_2_2">Wind speed</a></li>
+                            <li> <a href="#" id="button4_2_3">Wind dir</a></li>
+                            <li> <a href="#" id="button4_2_4">Light</a></li>
+                            <li> <a href="#" id="button4_2_5">Temperature</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">48 hours</a>
+                        <ul>
+                            <li> <a href="#" id="button4_3_1">Rain</a></li>
+                            <li> <a href="#" id="button4_3_2">Wind speed</a></li>
+                            <li> <a href="#" id="button4_3_3">Wind dir</a></li>
+                            <li> <a href="#" id="button4_3_4">Light</a></li>
+                            <li> <a href="#" id="button4_3_5">Temperature</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">72 hours</a>
+                        <ul>
+                            <li> <a href="#" id="button4_4_1">Rain</a></li>
+                            <li> <a href="#" id="button4_4_2">Wind speed</a></li>
+                            <li> <a href="#" id="button4_4_3">Wind dir</a></li>
+                            <li> <a href="#" id="button4_4_4">Light</a></li>
+                            <li> <a href="#" id="button4_4_5">Temperature</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">1 week</a>
+                        <ul>
+                            <li> <a href="#" id="button4_5_1">Rain</a></li>
+                            <li> <a href="#" id="button4_5_2">Wind speed</a></li>
+                            <li> <a href="#" id="button4_5_3">Wind dir</a></li>
+                            <li> <a href="#" id="button4_5_4">Light</a></li>
+                            <li> <a href="#" id="button4_5_5">Temperature</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">1 month</a>
+                        <ul>
+                            <li> <a href="#" id="button4_6_1">Rain</a></li>
+                            <li> <a href="#" id="button4_6_2">Wind speed</a></li>
+                            <li> <a href="#" id="button4_6_3">Wind dir</a></li>
+                            <li> <a href="#" id="button4_6_4">Light</a></li>
+                            <li> <a href="#" id="button4_6_5">Temperature</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+ </div>
+ 
+ <div class="div03">
+     <img class="image2" src="image3-1.jpg" height="155">
+     <h1>Tampere<br>University<br>of Applied<br>Science, Finland</h1>
+ </div>
+ 
+ <div id="heading" class="heading"></div>
+ <div class="search" id="search">
+    <p>You can search measurement here</p>
+   <input type="text" id="myInput" class="input" placeholder="measurements...."  onkeyup="searchFun()">
+</div>
+ <div class="average" id="average">
+     <h2 class="aver" id="aver"></h2>
+ </div>
+ <div class="warning" id="warning">
+     <h2 id="warn" class="warn"></h2>
+ </div>
+
+ <div id="div04">
+     
+    <table id="table" class ="table"></table>
+    <div id="div04_1">
+        <canvas id="canvas" class="chart"></canvas>
+    </div>
+ </div>
+
+
+
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.2.0/dist/chart.min.js"></script>
+ <script src="main.js"> </script>
+ <script src="temp.js"> </script>
+ <script src="rain.js"> </script>
+ <script src="Wind_spd.js"> </script>
+ <script src="wind_dir.js"> </script>
+ <script src="light.js"> </script>
+ <script src="rain_t.js"> </script>
+ <script src="temp_t.js"> </script>
+
+</body>
+</html>
+
+
